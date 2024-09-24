@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; /* Allows positioning the button */
+}
+
+.pharaonic-image {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%); /* Create a pyramid shape */
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5); /* Gold shadow effect */
+}
+
+.pharaonic-button {
+    position: absolute;
+    top: 70%; /* Center the button vertically */
+    left: 50%; /* Center the button horizontally */
+    transform: translate(-50%, -50%); /* Center the button */
+    padding: 10px 20px;
+    background-color: #a86b3e; /* Pharaonic color */
+    color: #fff;
+    font-family: 'Papyrus', cursive; /* Change this to a pharaonic-like font */
+    font-size: 1.2em;
+    text-decoration: none;
+    border: 2px solid #fff; /* White border */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+    transition: background-color 0.3s;
+}
+
+.pharaonic-button:hover {
+    background-color: #d4af37; /* Gold color on hover */
+}
+
+/* Optional: Add a background image to the body */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('3.jfif'); /* Background image */
+    background-size: contain; /* Change to 'cover' for a better fit */
+    opacity: 0.2; /* Adjust opacity as needed */
+    z-index: -1;
+}
