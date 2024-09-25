@@ -53,9 +53,12 @@ Route::group([], function () {
         return view('doodleJumpMaster.index');
     });
 
-
     Route::get('/start3', function () {
         return view('chessMaster.index');
+    });
+
+    Route::get('/start4', function () {
+        return view('egypt.start');
     });
 });
 
@@ -70,6 +73,17 @@ Route::group(['prefix' => 'chess'], function () {
         return view('chessMaster.two_player');
     });
 });
+
+
+
+Route::group(['prefix' => 'egypt'], function () {
+
+    Route::get('/game', function () {
+        return view('egypt.index');
+    });
+});
+
+
 Route::group(['prefix' => 'game1'], function () {
 
     Route::get('/level', function () {

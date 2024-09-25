@@ -62,7 +62,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('3.jfif'); /* Background image */
+    background-image: url('/img2/3.jfif'); /* Background image */
     background-size: contain; /* Change to 'cover' for a better fit */
     opacity: 0.2; /* Adjust opacity as needed */
     z-index: -1;

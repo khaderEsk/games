@@ -275,11 +275,11 @@
                         <div class="box">
                             <div>
                                 <div class="img-box">
-                                    <img src="images/f1.png" alt="">
+                                    <img src="img2/3.jfif" alt="">
                                 </div>
                                 <div class="detail-box">
                                     <h5>
-                                        Game Name
+                                        egypt
                                     </h5>
                                     <p>
                                         lorem Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
@@ -289,7 +289,11 @@
                                         <h6>
                                             $20
                                         </h6>
-                                        <button class="btn btn-danger">Play Now</button>
+                                        <a href="start4">
+                                            <button class="btn btn-danger">
+                                                Play Now
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

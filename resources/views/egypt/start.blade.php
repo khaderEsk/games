@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pharaonic Beginning Page</title>
-    <link rel="stylesheet" href="start.css">
+    <link rel="stylesheet" href="css/start.css">
     <style>
     /* Banner Styles */
     .banner {
@@ -68,8 +68,8 @@
     <div class="container">
         <h1>Welcome to the Pharaonic World</h1>
         <div class="image-container">
-            <img src="1.avif" alt="Pharaonic Art" class="pharaonic-image">
-            <a href="index.html" class="pharaonic-button">ٍstart</a>
+            <img src="img2/1.avif" alt="Pharaonic Art" class="pharaonic-image">
+            <a href="egypt/game" class="pharaonic-button">ٍstart</a>
         </div>
     </div>
     
