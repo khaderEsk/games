@@ -1,0 +1,111 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Globals */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Game Container */
+#game {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    background-image: linear-gradient(to bottom, #c4baff, #ffffff);
+    overflow: hidden;
+}
+
+/* Player */
+#player {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+/* Block */
+#block {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: -100px;
+    left: 100px;
+    animation: moveDown 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes moveDown {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+/* Score */
+#score {
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+    font-size: larger;
+    z-index: 100;
+}
+
+/* Ad Banners */
+.banner {
+    position: absolute;
+    background-color: #f1f1f1; /* Background color for ads */
+    border: 1px solid #ddd; /* Optional border */
+}
+
+.banner-top-left {
+    top: 0;
+    left: 0;
+    width: 150px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
+
+.banner-top-right {
+    top: 0;
+    right: 0;
+    width: 150px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
+
+.banner-bottom-left {
+    bottom: 0;
+    left: 0;
+    width: 150px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
+
+.banner-bottom-right {
+    bottom: 0;
+    right: 0;
+    width: 150px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
+
+.banner-left {
+    top: 100px; /* Adjust as needed */
+    left: 0;
+    width: 50px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+}
+
+.banner-right {
+    top: 100px; /* Adjust as needed */
+    right: 0;
+    width: 50px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+}
